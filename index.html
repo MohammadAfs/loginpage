@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="assets/icon.png" />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="container">
+      <form class="login">
+        <span class="title">Login</span>
+
+        <div class="username-container">
+          <input required type="text" name="username" class="input" id="username" />
+          <label for="username" class="label">
+            <span class="content-name">Username</span>
+          </label>
+        </div>
+
+        <div class="password-container">
+          <input required type="password" name="password" class="input" id="password" />
+          <label for="password" class="label">
+            <span class="content-name">Password</span>
+          </label>
+        </div>
+        <div class="submit-container">
+          <button id="submit" type="submit">Login</button>
+        </div>
+      </div>
+    </div>
+    <canvas id="canvas"></canvas>
+    <video autoplay muted loop poster="assets/poster.png" id="background">
+      <source src="assets/background.mp4" type="video/mp4" />
+    </video>
+    <script src="js/script.js"></script>
+  </body>
+</html>
